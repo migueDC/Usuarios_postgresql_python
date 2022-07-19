@@ -1,0 +1,168 @@
+DEBUG: [logger_base.py: 12] 12:25:38 AM -> Mensaje a nivel debug
+DEBUG[logger_base.py: 12]: 12:26:03 AM -> Mensaje a nivel debug
+DEBUG[Usuario.py: 31]: 12:36:45 AM -> ---------------------Persona
+---------------------Id_persona: None	Usuario: fungi54	Password: 315241475
+DEBUG[Usuario.py: 31]: 12:37:24 AM -> ---------------------Persona
+---------------------Id_persona: None	Usuario: fungi54	Password: 315241475
+DEBUG[Conexion.py: 22]: 12:52:26 AM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x000001372EB9A490>
+DEBUG[Conexion.py: 33]: 12:52:26 AM -> Se obtuvo conexion: <connection object at 0x000001373049DAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Conexion.py: 39]: 12:52:26 AM -> Se libero la conexion: None
+DEBUG[Conexion.py: 33]: 12:52:26 AM -> Se obtuvo conexion: <connection object at 0x000001373049DAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Conexion.py: 22]: 12:52:53 AM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x000002CA0FCE9130>
+DEBUG[Conexion.py: 33]: 12:52:53 AM -> Se obtuvo conexion: <connection object at 0x000002CA1172DAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Conexion.py: 39]: 12:52:53 AM -> Se libero la conexion: None
+DEBUG[Conexion.py: 33]: 12:52:53 AM -> Se obtuvo conexion: <connection object at 0x000002CA1172DAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Conexion.py: 44]: 12:52:53 AM -> Se serro el pool
+DEBUG[Conexion.py: 22]: 01:16:30 AM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x000002C625F79130>
+DEBUG[Conexion.py: 33]: 01:16:30 AM -> Se obtuvo conexion: <connection object at 0x000002C6279FDAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Conexion.py: 39]: 01:16:30 AM -> Se libero la conexion: None
+DEBUG[Conexion.py: 33]: 01:16:30 AM -> Se obtuvo conexion: <connection object at 0x000002C6279FDAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Conexion.py: 44]: 01:16:30 AM -> Se serro el pool
+DEBUG[Conexion.py: 22]: 01:16:36 AM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x0000025BB01E0100>
+DEBUG[Conexion.py: 33]: 01:16:36 AM -> Se obtuvo conexion: <connection object at 0x0000025BB1C98AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Cursor_del_pool.py: 27]: 01:16:36 AM -> []
+DEBUG[Cursor_del_pool.py: 19]: 01:16:36 AM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 01:16:36 AM -> Se libero la conexion: None
+DEBUG[Conexion.py: 22]: 10:55:50 AM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x000001D64166F100>
+DEBUG[Conexion.py: 33]: 10:55:50 AM -> Se obtuvo conexion: <connection object at 0x000001D6430CDAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Cursor_del_pool.py: 27]: 10:55:50 AM -> []
+DEBUG[Cursor_del_pool.py: 19]: 10:55:50 AM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 10:55:50 AM -> Se libero la conexion: None
+DEBUG[Usuario.py: 31]: 10:55:55 AM -> ---------------------Persona
+---------------------Id_persona: None	Usuario: fungi54	Password: 315241475
+DEBUG[Conexion.py: 22]: 10:59:24 AM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x000001FEF35728B0>
+DEBUG[Conexion.py: 33]: 10:59:24 AM -> Se obtuvo conexion: <connection object at 0x000001FEF32DAAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+ERROR[Cursor_del_pool.py: 16]: 10:59:24 AM -> Ocurrio en error, se hace rollback: <class 'psycopg2.errors.NotNullViolation'> null value in column "Id_usuario" of relation "usuario" violates not-null constraint
+DETAIL:  Failing row contains (null, mike_stuart, mamateamo).
+ <traceback object at 0x000001FEF35B44C0>
+DEBUG[Conexion.py: 39]: 10:59:24 AM -> Se libero la conexion: None
+DEBUG[Conexion.py: 22]: 11:05:34 AM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x000001D8878E8F40>
+DEBUG[Conexion.py: 33]: 11:05:34 AM -> Se obtuvo conexion: <connection object at 0x000001D887611AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+ERROR[Cursor_del_pool.py: 16]: 11:05:34 AM -> Ocurrio en error, se hace rollback: <class 'psycopg2.errors.NotNullViolation'> null value in column "Id_usuario" of relation "usuario" violates not-null constraint
+DETAIL:  Failing row contains (null, mike_stuart, mamateamo).
+ <traceback object at 0x000001D887904F40>
+DEBUG[Conexion.py: 39]: 11:05:34 AM -> Se libero la conexion: None
+DEBUG[Conexion.py: 22]: 11:10:43 AM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x000001A1F21B8F40>
+DEBUG[Conexion.py: 33]: 11:10:43 AM -> Se obtuvo conexion: <connection object at 0x000001A1F1EE1AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+ERROR[Cursor_del_pool.py: 16]: 11:10:43 AM -> Ocurrio en error, se hace rollback: <class 'psycopg2.errors.NotNullViolation'> null value in column "Id_usuario" of relation "usuario" violates not-null constraint
+DETAIL:  Failing row contains (null, mike_stuart, mamateamo).
+ <traceback object at 0x000001A1F21D4FC0>
+DEBUG[Conexion.py: 39]: 11:10:43 AM -> Se libero la conexion: None
+DEBUG[Conexion.py: 22]: 11:11:53 AM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x000002C563508F40>
+DEBUG[Conexion.py: 33]: 11:11:53 AM -> Se obtuvo conexion: <connection object at 0x000002C563231AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+ERROR[Cursor_del_pool.py: 16]: 11:11:53 AM -> Ocurrio en error, se hace rollback: <class 'psycopg2.errors.NotNullViolation'> null value in column "Id_usuario" of relation "usuario" violates not-null constraint
+DETAIL:  Failing row contains (null, mike_stuart, mamateamo).
+ <traceback object at 0x000002C563524FC0>
+DEBUG[Conexion.py: 39]: 11:11:53 AM -> Se libero la conexion: None
+DEBUG[Conexion.py: 22]: 11:12:37 AM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x0000011948CF8F40>
+DEBUG[Conexion.py: 33]: 11:12:37 AM -> Se obtuvo conexion: <connection object at 0x0000011948A21AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+ERROR[Cursor_del_pool.py: 16]: 11:12:37 AM -> Ocurrio en error, se hace rollback: <class 'psycopg2.errors.NotNullViolation'> null value in column "Id_usuario" of relation "usuario" violates not-null constraint
+DETAIL:  Failing row contains (null, mike_stuart, mamateamo).
+ <traceback object at 0x0000011948D14EC0>
+DEBUG[Conexion.py: 39]: 11:12:37 AM -> Se libero la conexion: None
+DEBUG[Conexion.py: 22]: 11:14:21 AM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x00000196D2BD8F40>
+DEBUG[Conexion.py: 33]: 11:14:21 AM -> Se obtuvo conexion: <connection object at 0x00000196D2901AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+ERROR[Cursor_del_pool.py: 16]: 11:14:21 AM -> Ocurrio en error, se hace rollback: <class 'psycopg2.errors.NotNullViolation'> null value in column "id_usuario" of relation "usuario" violates not-null constraint
+DETAIL:  Failing row contains (null, mike_stuart, mamateamo).
+ <traceback object at 0x00000196D2BF4FC0>
+DEBUG[Conexion.py: 39]: 11:14:21 AM -> Se libero la conexion: None
+DEBUG[Conexion.py: 22]: 10:30:18 PM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x0000023DDF8F8F40>
+DEBUG[Conexion.py: 33]: 10:30:18 PM -> Se obtuvo conexion: <connection object at 0x0000023DDF621AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[UsuarioDAO.py: 27]: 10:30:18 PM -> Usuario a insertar: ---------------------Persona
+---------------------Id_persona: None	Usuario: mike_stuart	Password: mamateamo
+DEBUG[Cursor_del_pool.py: 19]: 10:30:18 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 10:30:18 PM -> Se libero la conexion: None
+DEBUG[Conexion.py: 33]: 10:30:18 PM -> Se obtuvo conexion: <connection object at 0x0000023DDF621AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Cursor_del_pool.py: 19]: 10:30:18 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 10:30:18 PM -> Se libero la conexion: None
+DEBUG[Conexion.py: 22]: 10:34:59 PM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x0000021BDC63AC10>
+DEBUG[Conexion.py: 33]: 10:34:59 PM -> Se obtuvo conexion: <connection object at 0x0000021BDC331AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[UsuarioDAO.py: 35]: 10:34:59 PM -> Usuario a actializar: ---------------------Persona
+---------------------Id_persona: 1	Usuario: fungi54	Password: mamateamo
+DEBUG[Cursor_del_pool.py: 19]: 10:34:59 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 10:34:59 PM -> Se libero la conexion: None
+DEBUG[Conexion.py: 22]: 10:37:08 PM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x0000020996418160>
+DEBUG[Conexion.py: 33]: 10:37:08 PM -> Se obtuvo conexion: <connection object at 0x0000020996121AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[UsuarioDAO.py: 43]: 10:37:08 PM -> Persona a eliminar: ---------------------Persona
+---------------------Id_persona: 1	Usuario: fungi54	Password: mamateamo
+DEBUG[Cursor_del_pool.py: 19]: 10:37:08 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 10:37:08 PM -> Se libero la conexion: None
+DEBUG[Conexion.py: 22]: 10:56:20 PM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x000001591DE0F100>
+DEBUG[Conexion.py: 33]: 10:56:20 PM -> Se obtuvo conexion: <connection object at 0x000001591F8B49D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Cursor_del_pool.py: 19]: 10:56:20 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 10:56:20 PM -> Se libero la conexion: None
+DEBUG[Interfase_grafica.py: 19]: 10:56:20 PM -> Se mostraron todos los registros
+DEBUG[Conexion.py: 22]: 10:57:30 PM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x000002970D53F100>
+DEBUG[Conexion.py: 33]: 10:57:30 PM -> Se obtuvo conexion: <connection object at 0x000002970EFB49D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Cursor_del_pool.py: 19]: 10:57:30 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 10:57:30 PM -> Se libero la conexion: None
+DEBUG[Conexion.py: 22]: 10:58:37 PM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x000002384C84F100>
+DEBUG[Conexion.py: 33]: 10:58:37 PM -> Se obtuvo conexion: <connection object at 0x000002384E2E49D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Cursor_del_pool.py: 19]: 10:58:37 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 10:58:37 PM -> Se libero la conexion: None
+DEBUG[Conexion.py: 22]: 11:07:57 PM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x0000026398DEF100>
+DEBUG[Conexion.py: 33]: 11:07:57 PM -> Se obtuvo conexion: <connection object at 0x000002639A8769D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Cursor_del_pool.py: 19]: 11:07:57 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 11:07:57 PM -> Se libero la conexion: None
+DEBUG[Conexion.py: 33]: 11:08:15 PM -> Se obtuvo conexion: <connection object at 0x000002639A8769D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[UsuarioDAO.py: 27]: 11:08:15 PM -> Usuario a insertar: ---------------------Persona
+---------------------Id_persona: None	Usuario: fungi54	Password: 315241475
+DEBUG[Cursor_del_pool.py: 19]: 11:08:15 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 11:08:15 PM -> Se libero la conexion: None
+DEBUG[Conexion.py: 33]: 11:08:23 PM -> Se obtuvo conexion: <connection object at 0x000002639A8769D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Cursor_del_pool.py: 19]: 11:08:23 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 11:08:23 PM -> Se libero la conexion: None
+DEBUG[Interfase_grafica.py: 20]: 11:08:23 PM -> ---------------------Persona
+---------------------Id_persona: 2	Usuario: fungi54	Password: 315241475
+DEBUG[Conexion.py: 33]: 11:08:42 PM -> Se obtuvo conexion: <connection object at 0x000002639A8769D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[UsuarioDAO.py: 27]: 11:08:42 PM -> Usuario a insertar: ---------------------Persona
+---------------------Id_persona: None	Usuario: kat	Password: mariposarosa
+DEBUG[Cursor_del_pool.py: 19]: 11:08:42 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 11:08:42 PM -> Se libero la conexion: None
+DEBUG[Conexion.py: 33]: 11:08:47 PM -> Se obtuvo conexion: <connection object at 0x000002639A8769D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Cursor_del_pool.py: 19]: 11:08:47 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 11:08:47 PM -> Se libero la conexion: None
+DEBUG[Interfase_grafica.py: 20]: 11:08:47 PM -> ---------------------Persona
+---------------------Id_persona: 2	Usuario: fungi54	Password: 315241475
+DEBUG[Interfase_grafica.py: 20]: 11:08:47 PM -> ---------------------Persona
+---------------------Id_persona: 3	Usuario: kat	Password: mariposarosa
+DEBUG[Conexion.py: 33]: 11:09:16 PM -> Se obtuvo conexion: <connection object at 0x000002639A8769D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[UsuarioDAO.py: 35]: 11:09:16 PM -> Usuario a actializar: ---------------------Persona
+---------------------Id_persona: 2	Usuario: mikestuart	Password: nada
+DEBUG[Cursor_del_pool.py: 19]: 11:09:16 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 11:09:16 PM -> Se libero la conexion: None
+DEBUG[Conexion.py: 33]: 11:09:19 PM -> Se obtuvo conexion: <connection object at 0x000002639A8769D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Cursor_del_pool.py: 19]: 11:09:19 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 11:09:19 PM -> Se libero la conexion: None
+DEBUG[Interfase_grafica.py: 20]: 11:09:19 PM -> ---------------------Persona
+---------------------Id_persona: 2	Usuario: mikestuart	Password: nada
+DEBUG[Interfase_grafica.py: 20]: 11:09:19 PM -> ---------------------Persona
+---------------------Id_persona: 3	Usuario: kat	Password: mariposarosa
+DEBUG[Conexion.py: 33]: 11:09:32 PM -> Se obtuvo conexion: <connection object at 0x000002639A8769D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[UsuarioDAO.py: 43]: 11:09:32 PM -> Persona a eliminar: ---------------------Persona
+---------------------Id_persona: 2	Usuario: 	Password: 
+DEBUG[Cursor_del_pool.py: 19]: 11:09:32 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 11:09:32 PM -> Se libero la conexion: None
+DEBUG[Conexion.py: 33]: 11:09:34 PM -> Se obtuvo conexion: <connection object at 0x000002639A8769D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Cursor_del_pool.py: 19]: 11:09:34 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 11:09:34 PM -> Se libero la conexion: None
+DEBUG[Interfase_grafica.py: 20]: 11:09:34 PM -> ---------------------Persona
+---------------------Id_persona: 3	Usuario: kat	Password: mariposarosa
+DEBUG[Conexion.py: 22]: 10:11:49 PM -> Creacion exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x00000288F56A28E0>
+DEBUG[Conexion.py: 33]: 10:11:49 PM -> Se obtuvo conexion: <connection object at 0x00000288F77968C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Cursor_del_pool.py: 19]: 10:11:49 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 10:11:49 PM -> Se libero la conexion: None
+DEBUG[Interfase_grafica.py: 20]: 10:11:49 PM -> ---------------------Usuario
+---------------------Id_persona: 3	Usuario: kat	Password: mariposarosa
+DEBUG[Conexion.py: 33]: 10:12:22 PM -> Se obtuvo conexion: <connection object at 0x00000288F77968C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[UsuarioDAO.py: 27]: 10:12:22 PM -> Usuario a insertar: ---------------------Usuario
+---------------------Id_persona: None	Usuario: miguel	Password: algo
+DEBUG[Cursor_del_pool.py: 19]: 10:12:22 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 10:12:22 PM -> Se libero la conexion: None
+DEBUG[Conexion.py: 33]: 10:12:28 PM -> Se obtuvo conexion: <connection object at 0x00000288F77968C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+DEBUG[Cursor_del_pool.py: 19]: 10:12:28 PM -> Se hace commmit de la transaccion
+DEBUG[Conexion.py: 39]: 10:12:28 PM -> Se libero la conexion: None
+DEBUG[Interfase_grafica.py: 20]: 10:12:28 PM -> ---------------------Usuario
+---------------------Id_persona: 3	Usuario: kat	Password: mariposarosa
+DEBUG[Interfase_grafica.py: 20]: 10:12:28 PM -> ---------------------Usuario
+---------------------Id_persona: 4	Usuario: miguel	Password: algo
